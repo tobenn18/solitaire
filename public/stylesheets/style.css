@@ -1,0 +1,29 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.card {
+    display: block;
+    border: 1px solid black;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 75px;
+    width: 55px;
+}
+
+.column {
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.success{
+    border-color:green;
+}
+.fail{
+    border-color:red;
+}

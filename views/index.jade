@@ -1,0 +1,19 @@
+extends layout
+
+block content
+    div.stock-and-waste
+        div.stock
+            div#stock.card
+        div#wasteContainer.waste
+            div.card
+    div.board
+        div.tableau
+            div#column1.column
+            div#column2.column
+            div#column3.column
+            div#column4.column
+            div#column5.column
+            div#column6.column
+            div#column7.column
+    script(src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js")
+    script(src="javascripts/solitaire.js")
